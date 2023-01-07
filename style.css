@@ -8,3 +8,8 @@ body{
     background-color: pink;
     border-color: pink;
 }
+.carousel-inner, .carousel-item {
+    height: 500px;
+  }
+
+  .carousel { width:360px; height: 500px; }
