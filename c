@@ -1,63 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css">
-    <title>JISOO</title>
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: pink;">
-      <div class="container-sm">
-        <a href="index.html" class="navbar-brand">BLACKPINK</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto md-lg-0">
-            <li class="nav-item">
-              <a href="Our_history.html" class="nav-link active">Our history</a>
-            </li>
-            
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Members
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="Jisoo.html">Jisoo</a></li>
-                <li><a class="dropdown-item" href="Jennie.html">Jennie</a></li>
-                <li><a class="dropdown-item" href="Rose.html">Rose</a></li>
-                <li><a class="dropdown-item" href="Lisa.html">Lisa</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
 
-
+    
     <div class="container m-3 m-lg-5">
       <div class="row g-3 g-lg-5">
         <!-- Jisoo card -->
@@ -159,9 +101,7 @@
     </footer>
 
     <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"
-  ></script>
-  </body>
-</html>
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>

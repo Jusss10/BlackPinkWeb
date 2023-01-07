@@ -15,10 +15,9 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: pink;">
-      <!-- Navbar content -->
-      <div class="container-fluid">
-        <a href="Index.html" class="navbar-brand">BLACKPINK</a>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: pink;">
+      <div class="container-sm">
+        <a href="index.html" class="navbar-brand">BLACKPINK</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -30,17 +29,16 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <!-- Colapse of navbar -->
-        <div class="collapse navbar-collapse" id="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto md-lg-0">
             <li class="nav-item">
-              <a href="#" class="nav-link active">Our history</a>
+              <a href="Our_history.html" class="nav-link active">Our history</a>
             </li>
+            
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="Our_history.html"
+                href="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
@@ -48,114 +46,64 @@
                 Members
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="Jisoo.html">JISOO</a></li>
-                <li><a class="dropdown-item" href="Jennie.html">JENNIE</a></li>
-                <li><a class="dropdown-item" href="Rose.html">ROSE</a></li>
-                <li><a class="dropdown-item" href="Lisa.html">LISA</a></li>
+                <li><a class="dropdown-item" href="Jisoo.html">Jisoo</a></li>
+                <li><a class="dropdown-item" href="Jennie.html">Jennie</a></li>
+                <li><a class="dropdown-item" href="Rose.html">Rose</a></li>
+                <li><a class="dropdown-item" href="Lisa.html">Lisa</a></li>
               </ul>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <main class="container">
-    </main>
-    
-    <!-- carousel -->
-    <div class="container">
-      <div id="bootstrap-carousel" class="carousel slide" data-bs-ride="false">
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#bootstrap-carousel"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#bootstrap-carousel"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#bootstrap-carousel"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#bootstrap-carousel"
-            data-bs-slide-to="3"
-            aria-label="Slide 4"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="2016.jpg"
-              class="d-block w-100"
-              alt="BLACKPINK_2016"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>2016</h5>
-              <p>This was there debut</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="2017.jpg"
-              class="d-block w-100"
-              alt="BLACKPINK_2017"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>2017</h5>
-              <p>This one is called Miao</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img
-              src="2018.jpg"
-              class="d-block w-100"
-              alt="Puppy"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>2018</h5>
-              <p>Puppies can be cute too. Some are ugly though.</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img
-              src="2019.jpg"
-              class="d-block w-100"
-              alt="Puppy"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>2018</h5>
-              <p>Puppies can be cute too. Some are ugly though.</p>
+
+    <div class="container my-5">
+      <div class="row g-3">
+        <!-- Jisoo card -->
+        <div class="col-md-3 col-sm-12">
+          <div class="card">
+            <img class="card-img-top" src="jisoo.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Jisoo</h5>
+              <p class="card-text">Oldest member of Blackpink with a childlike personality. 
+                Is know for her gorgous visuals.</p>
+              <a href="Jisoo.html" class="btn btn-primary">More info</a>
             </div>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#bootstrap-carousel"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#bootstrap-carousel"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <!-- Jennie card -->
+        <div class="col-md-3 col-sm-12">
+          <div class="card">
+            <img class="card-img-top" src="jennie.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Jennie</h5>
+              <p class="card-text">Jennie's stone cold gaze and fierce rapping abilities quickly gave her the IT-girl title. </p>
+              <a href="Jennie.html" class="btn btn-primary">More info</a>
+            </div>
+          </div>
+        </div>
+        <!-- Rose card -->
+        <div class="col-md-3 col-sm-12">
+          <div class="card">
+            <img class="card-img-top" src="rose.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Rose</h5>
+              <p class="card-text">Rose smoky voice and hipster chic style makes her the indie darling of blackpink</p>
+              <a href="Rose.html" class="btn btn-primary">More info</a>
+            </div>
+          </div>
+        </div>
+        <!-- Lisa card -->
+        <div class="col-md-3 col-sm-12">
+          <div class="card">
+            <img class="card-img-top" src="Lisa_2_2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Lisa</h5>
+              <p class="card-text">Lalisa's otherwordly dancing abilities have erand her international recognition</p>
+              <a href="Lisa.html" class="btn btn-primary">More info</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -211,9 +159,9 @@
     </footer>
 
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"
+  ></script>
   </body>
 </html>

@@ -2,5 +2,9 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body{
-    background-color: floralwhite;
+    background-color: rgba(237, 182, 190, 0.584);
+}
+.btn-primary{
+    background-color: pink;
+    border-color: pink;
 }
